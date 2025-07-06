@@ -1,5 +1,7 @@
 # protoc-gen-enumlower
 
+[![CI](https://github.com/thejezzi/protoc-gen-enumlower/actions/workflows/ci.yml/badge.svg)](https://github.com/thejezzi/protoc-gen-enumlower/actions/workflows/ci.yml)
+
 A `protoc` plugin that generates Go helper methods for enum types, allowing conversion between lower-case string representations and enum values.
 
 ## Features
