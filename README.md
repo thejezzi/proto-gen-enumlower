@@ -42,7 +42,7 @@ func ParseStatusLower(s string) (Status, error) { ... }
 func (x Status) LowerString() string { ... }
 ```
 
-Look under `examples` for more information.
+Look under `examples` for more information and run `go generate ./...`
 
 ## Requirements
 

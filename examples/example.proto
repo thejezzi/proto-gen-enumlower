@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package example;
+
+option go_package = "github.com/thejezzi/protoc-gen-enumlower/examples;examples";
+
+enum Color {
+  COLOR_UNSPECIFIED = 0;
+  COLOR_RED = 1;
+  COLOR_GREEN = 2;
+  COLOR_BLUE = 3;
+}
+
+message Paint {
+  Color color = 1;
+}
